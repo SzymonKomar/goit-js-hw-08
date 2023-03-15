@@ -18,5 +18,3 @@ let gallery = new SimpleLightbox('.gallery a', {
   captionDelay: 100,
   captionPosition: 'bottom',
 });
-
-console.log(galleryItems);

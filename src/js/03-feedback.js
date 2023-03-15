@@ -42,7 +42,7 @@ function createFeedback(e) {
   inputInfo = { ...inputInfo, message: messageInputGet.value };
   console.log(inputInfo);
   localStorage.clear('input_info');
-  formGet.reset();
+  formGet.reset('input_info');
 }
 buttonGet.addEventListener('click', createFeedback);
 //Event listener for submit-button
